@@ -63,7 +63,7 @@ cd cd0157-Server-Deployment-and-Containerization/
 ├── Dockerfile 
 ├── README.md
 ├── aws-auth-patch.yml # ✅ DONE Got Values from /tmp
-├── buildspec.yml      # ✅ DONE set jwt token
+├── buildspec.yml      # ✅ DONE set jwt secret
 ├── ci-cd-codepipeline.cfn.yml # ✅ DONE : Parameters values set in console
 ├── iam-role-policy.json  # ✅ DONE 
 ├── main.py
