@@ -62,15 +62,15 @@ cd cd0157-Server-Deployment-and-Containerization/
 .
 ├── Dockerfile 
 ├── README.md
-├── aws-auth-patch.yml #ToDo
-├── buildspec.yml      #ToDo
-├── ci-cd-codepipeline.cfn.yml #ToDo
-├── iam-role-policy.json  #ToDo
+├── aws-auth-patch.yml # ✅ DONE 
+├── buildspec.yml      # ✅ DONE set jwt token
+├── ci-cd-codepipeline.cfn.yml # ✅ DONE : Parameters values set in console
+├── iam-role-policy.json  # ✅ DONE 
 ├── main.py
 ├── requirements.txt
-├── simple_jwt_api.yml
-├── test_main.py  #ToDo
-└── trust.json     #ToDo 
+├── simple_jwt_api.yml #ref Lesson 4-1
+├── test_main.py  # ✅ DONE : Added 5 Tests, all green
+└── trust.json     # ✅ DONE: Updated my user id
 ```
 
      

@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
         - name: simple-jwt-api
-          image: CONTAINER_IMAGE
+          image: sibongisenimsomi/udac-cicd-container-project:latest
           securityContext:
             privileged: false
             readOnlyRootFilesystem: false
